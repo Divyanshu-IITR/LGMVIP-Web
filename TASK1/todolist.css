@@ -3,6 +3,7 @@
 .todos-bg-container {
   background-color: #f9fbfe;
   height: 100vh;
+  background-image:linear-gradient(to bottom right, rgb(236, 64, 52,0.8), rgb(17, 79, 211,0.8));
 }
 
 .todos-heading {
@@ -10,7 +11,7 @@
   font-family: "Roboto";
   font-size: 46px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
