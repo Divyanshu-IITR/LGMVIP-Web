@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="task2.css">
+    <script src="task2.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="form">
+            
+                <div class="container">
+                    <h1> Student Enrollment Form</h1>
+    
+                    <hr>
+    
+                    <label for="email"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Your Name" name="name" id="name" required>
+    
+                    <label for="email"><b>Age</b></label>
+                    <input type="text" placeholder="Enter Your Age" name="age" id="age" required>
+    
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Your Email" name="email" id="email" required>
+    
+                    <label for="email"><b>College</b></label>
+                    <input type="text" placeholder="Enter Your College Name" name="college" id="college" required>
+    
+    
+    
+                    <hr>
+    
+    
+                    <button class="btn" onclick="AddRow()" id="btn">Register</button>
+                </div>
+    
+            
+        </div>
+        <div class="form">
+            <table border = "4" id="display">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>College</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    
+    </div>
+    
+</body>
+
+
+</html>
