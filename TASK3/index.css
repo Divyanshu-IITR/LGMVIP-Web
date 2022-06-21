@@ -1,0 +1,122 @@
+* {box-sizing: border-box}
+
+body {
+    background-color: #fc8ea6;
+    background-image: linear-gradient(62deg, #ee7171 0%, #e0c3fc 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.form{
+    width: 50%;
+}
+
+label{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color:brown;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 50%;
+  content: "";
+  position: relative;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 140px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:after {
+  content: "";
+  background: rgb(253, 63, 63);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+
+}
+.btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+table{
+    width: 100%;
+    border: 4px; 
+    border-color: black;
+}
+table th{
+    background-color:#ee7171;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table tr th{
+    padding: 1%;
+    border: 2px;
+}
+
+table tr td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
